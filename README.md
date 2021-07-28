@@ -1,0 +1,2 @@
+# Hate-Detection
+Research Methodology
