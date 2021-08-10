@@ -82,6 +82,10 @@ Rising cases of online bullying via offensive and hateful comments or tweets onl
 
 ## Results
 
+- The experimet using TF-IDF and POS tagging with Logistic regression and Linear SVM for classification with L2 regularization performed the best, resulting in 0.91 F1-score
+
+
+![results](https://github.com/kshitijahande/Hate-Detection/blob/d46ad1ec5415a0b8d63b40cd3b01854bb9a5dadd/results/table_exp_1-2.png)
 
 
 ## Support
