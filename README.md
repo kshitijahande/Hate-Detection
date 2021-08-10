@@ -1,6 +1,6 @@
 # Hate Detection (v 1.0.0)
 ![social](https://img.shields.io/github/followers/kshitijahande?style=social)
-![social](https://img.shields.io/badge/email%20me-job.kshitijahande%40gmail.com-blueviolet)
+
 ![language](https://img.shields.io/badge/python-v%203.8-neonorange)
 
 This is a repository for Hate Detection project under Research Methodology course Spring '21 at Lakehead University, Canada.
@@ -12,7 +12,10 @@ This is a repository for Hate Detection project under Research Methodology cours
 
 1. [Our Philosophy](#our-philosophy)
 2. [About this project](#about-this-project)
-3. [Manifest](#manifest)
+3. [Road-map](#road-map)
+4. [Project Status](#project-status)
+5. [Manifest](#manifest)
+6. [Support](#support)
 
 
 
@@ -22,23 +25,27 @@ Rising cases of online bullying via offensive and hateful comments or tweets onl
 ## About this project
 
 - This project will help identify potential hate texts from non-hateful ones. 
-- You can type a message or comment in the input box in UI and hit submit. It will then display either 'This comment is hurtful 😿 Please spread love 💌 !' or 'GOOD JOB 😺 ! Please continue spreading love 💌 !' based on harshness of the language used.
+- You can type a message or comment in the input box in UI and hit submit. It will then display either 'This comment is hurtful' or 'GOOD JOB 😺 ! Please continue spreading love 💌 !' based on harshness of the language used.
 - This feature can be  further enhanced to prevent the user from posting such comments and completely avoid the hastle of blocking a user and establish respectful boundaries.
 - Its a plug and play feature, it can be integrated with your website user suggesion or comment box in a jiffy 🏃
 
-## Road-map
+## Road-map 🗺️
 
-- Collect data from HateSpeech.org
+<!-- - Collect data from HateSpeech.org
 - Clean data, remove punctuations, emojis, special characters and store this clean data aside
 - Perform data analysis
 - Tokenize with bert or n-gram
-- Task 1 : Binary classification between hate and non-hate
-- Task 2 : Relation with Sentiment classification task
+- Task 1 : Multiclass classification between hateful, offensive language and neither -->
+- Task 2 : Include Sentiment classification task to improve classification accuracy
 - Task 3 : Auto convert hateful words into endearing or encouraging antonyms and generate meaningful sentenses
 
-## Project Status
+## Project Status ☑️
 
-- collect data 
+- Collected data from HuggingFace library
+- Cleaned data, removed punctuations, emojis, special characters like hash tags and Twitter user mentions
+- Perform data analysis
+- Tokenized with TF-IDF and n-gram
+- Task 1 : Multiclass classification between hateful, offensive language and neither 
 
 
 ## Manifest
@@ -48,8 +55,15 @@ Rising cases of online bullying via offensive and hateful comments or tweets onl
 ```
 - newfile.txt --> A new file that says stuff in it
 - README.md ----> This markdown file you are reading.
-- img ----------> Images folder for the readme
 ```
+
+## Support
+ ![social](https://img.shields.io/badge/email%20me-job.kshitijahande%40gmail.com-blueviolet)
+
+- I would highly appreciate and welcome all your contributions and suggestions to improve this work!
+<!-- [email me](job.kshitijahande@gmail.com) -->
+
+
 <!-- ## Necessary Things for a README
 
 Depending on exactly what sort of project you are doing, there are a number of things that you may or may not want to include in a readme. There is really no **one true way** to do it. Readme's are a kind of _artform_.
@@ -120,6 +134,7 @@ cool-project -arg1 -arg2
 - You can find license info here: [license](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/licensing-a-repository)
 
  -->
+
 
 
 
