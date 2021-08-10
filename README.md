@@ -1,11 +1,8 @@
 # Hate Detection (v 1.0.0)
-![social](https://img.shields.io/github/followers/kshitijahande?style=social)
+![social](https://img.shields.io/github/followers/kshitijahande?style=social) ![language](https://img.shields.io/badge/python-v%203.8-neonorange) ![language](https://img.shields.io/badge/scikit__learn-v%200.24.2-9cf)
 
-![language](https://img.shields.io/badge/python-v%203.8-neonorange)
 
 This is a repository for Hate Detection project under Research Methodology course Spring '21 at Lakehead University, Canada.
-
-
 
 
 ## Table of Contents
@@ -15,7 +12,9 @@ This is a repository for Hate Detection project under Research Methodology cours
 3. [Road-map](#road-map)
 4. [Project Status](#project-status)
 5. [Manifest](#manifest)
-6. [Support](#support)
+6. [Dataset](#dataset)
+7. [Results](#results)
+8. [Support](#support)
 
 
 
@@ -25,12 +24,11 @@ Rising cases of online bullying via offensive and hateful comments or tweets onl
 ## About this project
 
 - This project will help identify potential hate texts from non-hateful ones. 
-- You can type a message or comment in the input box in UI and hit submit. It will then display either 'This comment is hurtful' or 'GOOD JOB 😺 ! Please continue spreading love 💌 !' based on harshness of the language used.
+- You can type a message or comment in the input box in UI and hit submit. It will then display either 'This comment is hurtful' or 'GOOD JOB! Please continue spreading love 💌 !' based on harshness of the language used.
 - This feature can be  further enhanced to prevent the user from posting such comments and completely avoid the hastle of blocking a user and establish respectful boundaries.
 - Its a plug and play feature, it can be integrated with your website user suggesion or comment box in a jiffy 🏃
 
-## Road-map 🗺️
-
+## Road-map 
 <!-- - Collect data from HateSpeech.org
 - Clean data, remove punctuations, emojis, special characters and store this clean data aside
 - Perform data analysis
@@ -39,23 +37,52 @@ Rising cases of online bullying via offensive and hateful comments or tweets onl
 - Task 2 : Include Sentiment classification task to improve classification accuracy
 - Task 3 : Auto convert hateful words into endearing or encouraging antonyms and generate meaningful sentenses
 
-## Project Status ☑️
+## Project Status 
 
-- Collected data from HuggingFace library
-- Cleaned data, removed punctuations, emojis, special characters like hash tags and Twitter user mentions
-- Perform data analysis
-- Tokenized with TF-IDF and n-gram
-- Task 1 : Multiclass classification between hateful, offensive language and neither 
+☑️ Collected data from HuggingFace library <br>
+☑️ Cleaned data, removed punctuations, emojis, special characters like hash tags and Twitter user mentions <br>
+☑️ Perform data analysis <br>
+☑️ Tokenized with TF-IDF and n-gram <br>
+☑️ Task 1 : Multiclass classification between hateful, offensive language and neither <br>
 
 
 ## Manifest
 
-- A manifest is a list of the top-level files in a project with a description of what each file is.
+- A list of the top-level files in this project with a description of what each file is.
 
 ```
-- newfile.txt --> A new file that says stuff in it
-- README.md ----> This markdown file you are reading.
+- README.md                                          ----> This markdown file you are reading.
+- 1_classifier_tfidf_svc.ipynb                       ----> This is experiment #1 to achieve Task 1. It uses only TF-IDF with Logistic regression and Linear SVM 
+- 2_classifier_tfidf_pos_logistic_regression.ipynb   ----> This is experiment #2 to achieve Task 1. It uses TF-IDF and POS tagging with Logistic regression and Linear SVM 
+- 3_classifier_bert.ipynb                            ----> This is a in-progress experiment #3 to extract features using BERT tokenizer
 ```
+
+## Dataset 
+
+- This dataset is pulled from HuggingFace library, made available by [T. Davidson](https://huggingface.co/datasets/hate_speech_offensive)
+- Total rows: 24,783
+- Following columns are accessible:
+```
+'count',             --------> the number of CrowdFollower workers voted for class labelling
+ 'hate_speech_count',            --------> the number of CrowdFollower workers classified tweet as hate speech
+ 'offensive_language_count',     --------> the number of CrowdFollower workers classified tweet as offensive language
+ 'neither_count',             --------> the number of CrowdFollower workers classified tweet as neither hate speech nor offensive language
+ 'class',             --------> Final class label assigned to the tweet      
+ 'tweet'            --------> Tweet 
+
+```
+- Class column can contain values 0, 1 or 2
+```
+"class":[
+            0:"hate speech"
+            1:"offensive language"
+            2:"neither"
+]
+```
+
+## Results
+
+
 
 ## Support
  ![social](https://img.shields.io/badge/email%20me-job.kshitijahande%40gmail.com-blueviolet)
@@ -118,14 +145,6 @@ cool-project -arg1 -arg2
 ```
 
 - then maybe show a screenshot of  the results :smile:
-
-## Support
-
-- I would appreciate and welcome all your contributions and suggestions to improve this work!
-[email me](job.kshitijahande@gmail.com)
-
-
-
 
 ## License
 
