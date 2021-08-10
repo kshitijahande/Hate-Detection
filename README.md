@@ -11,10 +11,11 @@ This is a repository for Hate Detection project under Research Methodology cours
 2. [About this project](#about-this-project)
 3. [Road-map](#road-map)
 4. [Project Status](#project-status)
-5. [Manifest](#manifest)
-6. [Dataset](#dataset)
-7. [Results](#results)
-8. [Support](#support)
+5. [Usage](#usage)
+6. [Manifest](#manifest)
+7. [Dataset](#dataset)
+8. [Results](#results)
+9. [Support](#support)
 
 
 
@@ -45,6 +46,13 @@ Rising cases of online bullying via offensive and hateful comments or tweets onl
 ☑️ Tokenized with TF-IDF and n-gram <br>
 ☑️ Task 1 : Multiclass classification between hateful, offensive language and neither <br>
 
+## Usage
+- No setup needed, just a google account 😺
+- You can directly open the link visible on each ipynb Notebook in this repository and copy the notebook to your personal drive to get started!
+- If you wish to contribute, clone this repository
+```
+git clone 'https://github.com/kshitijahande/Hate-Detection.git'
+```
 
 ## Manifest
 
