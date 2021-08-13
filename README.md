@@ -58,7 +58,7 @@ Rising cases of online bullying via offensive and hateful comments or tweets onl
 
 ## Usage
 - No setup needed, just a google account 😺
-- You can directly open the link visible on each ipynb Notebook in this repository and copy the notebook to your personal drive to get started!
+- You can directly open each ipynb Notebook in this repository by copying the notebook to your personal drive to get started on Google Colab!
 - "2_classifier_tfidf_pos_logistic_regression.ipynb" contains code for the best performing model
 - The dataset is pulled in the .ipynb notebook itself so there is no need to explicitly copy data files
 - If you wish to contribute, clone this repository
