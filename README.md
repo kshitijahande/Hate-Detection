@@ -1,6 +1,7 @@
 # "Share Love not Hate" - Assessing Hate Speech Detection methods using TF-IDF and POS tagging approach on Twitter (v 1.0.0)
 ![social](https://img.shields.io/github/followers/kshitijahande?style=social) ![language](https://img.shields.io/badge/python-v%203.8-neonorange) ![language](https://img.shields.io/badge/scikit__learn-v%200.24.2-9cf)
 
+![gif](https://media.giphy.com/media/QNlKSoNIyfY3MT3fzI/giphy.gif)
 
 This is a repository for Hate Detection project under Research Methodology course Spring '21 at Lakehead University, Canada.
 
@@ -21,6 +22,12 @@ This is a repository for Hate Detection project under Research Methodology cours
 
 ## Our Philosophy 
 Rising cases of online bullying via offensive and hateful comments or tweets online makes hate detection of upmost need in this era. Multiple millenials including celebs, have fallen prey to online bashing afftecting their mental health, increasing anxiety and depression. Our philosophy is to share LOVE not hate 💜
+
+![sloth](https://media.giphy.com/media/OocLVILtd7ybm/giphy.gif)![sticker](https://media.giphy.com/media/bkocUWOVuyDkMVRvxM/giphy.gif) 
+
+<!-- ![phone](https://media.giphy.com/media/l4pT49ce47qFBdVT2/giphy.gif) -->
+
+<!-- ![miranda](https://media.giphy.com/media/5oH9MgEQSW2AM/giphy.gif) -->
 
 ## About this project
 
@@ -105,7 +112,7 @@ git clone 'https://github.com/kshitijahande/Hate-Detection.git'
 - I would highly appreciate and welcome all your contributions and suggestions to improve this work!
 <!-- [email me](job.kshitijahande@gmail.com) -->
 
-
+![cat](https://media.giphy.com/media/2tSodgDfwCjIMCBY8h/giphy.gif)
 <!-- ## Necessary Things for a README
 
 Depending on exactly what sort of project you are doing, there are a number of things that you may or may not want to include in a readme. There is really no **one true way** to do it. Readme's are a kind of _artform_.
