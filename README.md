@@ -29,6 +29,15 @@ Rising cases of online bullying via offensive and hateful comments or tweets onl
 - This feature can be  further enhanced to prevent the user from posting such comments and completely avoid the hastle of blocking a user and establish respectful boundaries.
 - Its a plug and play feature, it can be integrated with your website user suggesion or comment box in a jiffy 🏃
 
+## Project Status 
+
+☑️ Collected data from HuggingFace library <br>
+☑️ Cleaned data, removed punctuations, emojis, special characters like hash tags and Twitter user mentions <br>
+☑️ Perform data analysis <br>
+☑️ Tokenized with TF-IDF with n-gram <br>
+☑️ Tokenized with POS tagging with n-gram <br>
+☑️ Task 1 : Multiclass classification between hateful, offensive language and neither <br>
+
 ## Road-map 
 <!-- - Collect data from HateSpeech.org
 - Clean data, remove punctuations, emojis, special characters and store this clean data aside
@@ -37,14 +46,6 @@ Rising cases of online bullying via offensive and hateful comments or tweets onl
 - Task 1 : Multiclass classification between hateful, offensive language and neither -->
 - Task 2 : Include Sentiment classification task to improve classification accuracy
 - Task 3 : Auto convert hateful words into endearing or encouraging antonyms and generate meaningful sentenses
-
-## Project Status 
-
-☑️ Collected data from HuggingFace library <br>
-☑️ Cleaned data, removed punctuations, emojis, special characters like hash tags and Twitter user mentions <br>
-☑️ Perform data analysis <br>
-☑️ Tokenized with TF-IDF and n-gram <br>
-☑️ Task 1 : Multiclass classification between hateful, offensive language and neither <br>
 
 ## Usage
 - No setup needed, just a google account 😺
@@ -71,10 +72,10 @@ git clone 'https://github.com/kshitijahande/Hate-Detection.git'
 - Total rows: 24,783
 - Following columns are accessible:
 ```
-'count',             --------> the number of CrowdFollower workers voted for class labelling
- 'hate_speech_count',            --------> the number of CrowdFollower workers classified tweet as hate speech
- 'offensive_language_count',     --------> the number of CrowdFollower workers classified tweet as offensive language
- 'neither_count',             --------> the number of CrowdFollower workers classified tweet as neither hate speech nor offensive language
+'count',             --------> the number of CrowdFlower workers voted for class labelling
+ 'hate_speech_count',            --------> the number of CrowdFlower workers classified tweet as hate speech
+ 'offensive_language_count',     --------> the number of CrowdFlower workers classified tweet as offensive language
+ 'neither_count',             --------> the number of CrowdFlower workers classified tweet as neither hate speech nor offensive language
  'class',             --------> Final class label assigned to the tweet      
  'tweet'            --------> Tweet 
 
@@ -90,7 +91,7 @@ git clone 'https://github.com/kshitijahande/Hate-Detection.git'
 
 ## Results
 
-- The experimet using TF-IDF and POS tagging with Logistic regression and Linear SVM for classification with L2 regularization performed the best, resulting in 0.91 F1-score
+- The experimet using TF-IDF and POS tagging with Logistic regression for feature selection and Linear SVM for classification with L2 regularization performed the best, resulting in 0.91 F1-score.
 
 
 ![results](https://github.com/kshitijahande/Hate-Detection/blob/d46ad1ec5415a0b8d63b40cd3b01854bb9a5dadd/results/table_exp_1-2.png)
