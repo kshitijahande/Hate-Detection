@@ -75,6 +75,10 @@ git clone 'https://github.com/kshitijahande/Hate-Detection.git'
 - 1_classifier_tfidf_svc.ipynb                       ----> This is experiment #1 to achieve Task 1. It uses only TF-IDF with Logistic regression and Linear SVM 
 - 2_classifier_tfidf_pos_logistic_regression.ipynb   ----> This is experiment #2 to achieve Task 1. It uses TF-IDF and POS tagging with Logistic regression and Linear SVM 
 - 3_classifier_bert.ipynb                            ----> This is a in-progress experiment #3 to extract features using BERT tokenizer
+- documentation                                      ----> This folder contains all documentation work
+- documentation/report.pdf
+- documentation/slides.pdf
+- results                                            ----> This folder contains detailed results for experiments #1 and # 2 table 
 ```
 
 ## Dataset 
