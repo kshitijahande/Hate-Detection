@@ -1,4 +1,4 @@
-# Hate Detection (v 1.0.0)
+# "Share Love not Hate" - Assessing Hate Speech Detection methods using TF-IDF and POS tagging approach on Twitter (v 1.0.0)
 ![social](https://img.shields.io/github/followers/kshitijahande?style=social) ![language](https://img.shields.io/badge/python-v%203.8-neonorange) ![language](https://img.shields.io/badge/scikit__learn-v%200.24.2-9cf)
 
 
@@ -50,6 +50,8 @@ Rising cases of online bullying via offensive and hateful comments or tweets onl
 ## Usage
 - No setup needed, just a google account 😺
 - You can directly open the link visible on each ipynb Notebook in this repository and copy the notebook to your personal drive to get started!
+- "2_classifier_tfidf_pos_logistic_regression.ipynb" contains code for the best performing model
+- The dataset is pulled in the .ipynb notebook itself so there is no need to explicitly copy data files
 - If you wish to contribute, clone this repository
 ```
 git clone 'https://github.com/kshitijahande/Hate-Detection.git'
@@ -91,7 +93,7 @@ git clone 'https://github.com/kshitijahande/Hate-Detection.git'
 
 ## Results
 
-- The experimet using TF-IDF and POS tagging with Logistic regression for feature selection and Linear SVM for classification with L2 regularization performed the best, resulting in 0.91 F1-score.
+- The experiment #2 using TF-IDF and POS tagging with Logistic regression for feature selection and Linear SVM for classification with L2 regularization performed the best, resulting in 0.91 F1-score.
 
 
 ![results](https://github.com/kshitijahande/Hate-Detection/blob/d46ad1ec5415a0b8d63b40cd3b01854bb9a5dadd/results/table_exp_1-2.png)
