@@ -23,7 +23,7 @@ This is a repository for Hate Detection project under Research Methodology cours
 ## Our Philosophy 
 Rising cases of online bullying via offensive and hateful comments or tweets online makes hate detection of upmost need in this era. Multiple millenials including celebs, have fallen prey to online bashing afftecting their mental health, increasing anxiety and depression. Our philosophy is to share LOVE not hate 💜
 
-![sloth](https://media.giphy.com/media/OocLVILtd7ybm/giphy.gif)![sticker](https://media.giphy.com/media/bkocUWOVuyDkMVRvxM/giphy.gif) 
+![sloth](https://media.giphy.com/media/OocLVILtd7ybm/giphy.gif)
 
 <!-- ![phone](https://media.giphy.com/media/l4pT49ce47qFBdVT2/giphy.gif) -->
 
@@ -35,6 +35,8 @@ Rising cases of online bullying via offensive and hateful comments or tweets onl
 - You can type a message or comment in the input box in UI and hit submit. It will then display either 'This comment is hurtful' or 'GOOD JOB! Please continue spreading love 💌 !' based on harshness of the language used.
 - This feature can be  further enhanced to prevent the user from posting such comments and completely avoid the hastle of blocking a user and establish respectful boundaries.
 - Its a plug and play feature, it can be integrated with your website user suggesion or comment box in a jiffy 🏃
+
+![sticker](https://media.giphy.com/media/bkocUWOVuyDkMVRvxM/giphy.gif) 
 
 ## Project Status 
 
